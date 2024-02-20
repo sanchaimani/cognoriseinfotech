@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <article class="wrapper">
+  <h1>Calculator</h1>
+<div id="calculator">
+  <div id="screen"></div>
+  <button3 onclick="clearScreen()">AC</button3>
+  <button3 onclick="deleteLastCharacter()">DEL</button3>
+  <button3 onclick="toggleSign()">+/-</button3>
+  <button2 onclick="appendToScreen('/')">/</button2>
+  <button onclick="appendToScreen('7')">7</button>
+  <button onclick="appendToScreen('8')">8</button>
+  <button onclick="appendToScreen('9')">9</button>
+  <button2 onclick="appendToScreen('*')">x</button2>
+  <button onclick="appendToScreen('4')">4</button>
+  <button onclick="appendToScreen('5')">5</button>
+  <button onclick="appendToScreen('6')">6</button>
+  <button2 onclick="appendToScreen('-')">-</button2>
+  <button onclick="appendToScreen('1')">1</button>
+  <button onclick="appendToScreen('2')">2</button>
+  <button onclick="appendToScreen('3')">3</button>
+  <button2 onclick="appendToScreen('+')">+</button2>
+  <button1 onclick="appendToScreen('0')">0</button1>
+  <button onclick="appendToScreen('.')">.</button>
+  <button2 onclick="calculate()">=</button2>
+</div>
+</article>
+</body>
+</html>
